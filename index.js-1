@@ -146,7 +146,7 @@ zeksapi = "vallganz5",
 dapapi = "anakasu",
 ApiZeks = "https://api.zeks.xyz",
 zeksApikey = "Alphabott",
-nomorowner1 = "@51923568749"; 
+nomorowner1 = "@50378800412"; 
 fake = `𝗖𝗿𝗲𝗮𝗱𝗼𝗿 : ${fakeyoi}\n︎𝗣𝗿𝗲𝗳𝗶𝘅 :「 ${prefixStatus ? "Multi Prefix" : "No Prefix"} 」`;
 thumb = fs.readFileSync("./stik/thumb.jpeg"); 
 numbernye = "0"; 
@@ -348,7 +348,7 @@ const checkRegisteredUser = (sender) => {
       ? mek.participant
       : mek.key.remoteJid;
     const totalchat = await cnf.chats.all();
-    const ownerNumber = [`51923568749@s.whatsapp.net`]
+    const ownerNumber = [`50378800412@s.whatsapp.net`]
 	const senderNumber = sender.split("@")[0] 
     const m = simple.smsg(cnf, mek);
     const groupMetadata = isGroup ? await cnf.groupMetadata(from) : "";
@@ -553,7 +553,7 @@ const finv = {
     };
     const fvn = {
       key: {
-        participant: `51923568749@s.whatsapp.net`,
+        participant: `50378800412@s.whatsapp.net`,
         ...(from ? { remoteJid: "6289643739077-1613049930@g.us" } : {}),
       },
       message: {
@@ -620,7 +620,7 @@ const fstick = {
 const fvid = {
 	 key: { 
           fromMe: false,
-	      participant: `51923568749@s.whatsapp.net`, ...(from ? 
+	      participant: `50378800412@s.whatsapp.net`, ...(from ? 
 	 { remoteJid: "6289643739077-1613049930@g.us" } : {}) 
                 },
 	 message: { 
@@ -923,7 +923,7 @@ cnf.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
       cnf.groupAdd(from, orangnya);
     };
         const grupinv = (teks) => {
-        	grup = cnf.prepareMessageFromContent(from, { "groupInviteMessage": { "groupJid": '6288213840883-1616169743@g.us', "inviteCode": 'https://chat.whatsapp.com/Dgt6', "groupName": `Confu Bot Inc.`, "footerText": "*_Bot 24/7_*", "jpegThumbnail": iye, "caption": teks}}, {quoted:mek})
+        	grup = cnf.prepareMessageFromContent(from, { "groupInviteMessage": { "groupJid": '6288213840883-1616169743@g.us', "inviteCode": 'https://chat.whatsapp.com/JV38U2G1yha9ACFSEdCyxX', "groupName": `tiburonlandia Inc.`, "footerText": "*_Bot 24/7_*", "jpegThumbnail": iye, "caption": teks}}, {quoted:mek})
             cnf.relayWAMessage(grup)
         }
 const fakeitem = (teks) => {
@@ -965,10 +965,10 @@ sendEphemeral: false,
                 "title": `WhatsApp`,
                 "body": `wa.me/51923568749`,
                 "mediaType": "10",
-                "mediaUrl": `wa.me/51923568749`,
+                "mediaUrl": `wa.me/50378800412`,
                 "thumbnailUrl": "https://i.ibb.co/QJRWXb9/IMG-20211107-WA0044.jpg",
                 "thumbnail": iye,
-                "sourceUrl": `wa.me/51923568749`,
+                "sourceUrl": `wa.me/50378800412`,
 },mentionedJid:[sender]}, quoted : mek})
 };
 const fakeyt = (teks) => {
@@ -1146,7 +1146,7 @@ async function sendFileFromUrl(from, url, caption, msg, men) {
     if (isGroup && isAntivirtex && !mek.key.fromMe) {
       if (budy.length > 500000) {
         if (isGroupAdmins) return
-        reply("ANTIVIRTEX DETECTADO!! LO SENTIMOS SERÁS ELIMINADO :V");
+        reply("ANTIVIRTEX DETECTADO!! LO SENTIMOS SERÁS ELIMINADO INTRODUCE MUSICA DE HEATER XD :V");
         cnf.groupRemove(from, sender);
       }
     }
